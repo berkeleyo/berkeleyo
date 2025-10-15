@@ -30,28 +30,49 @@
   <img src="https://img.shields.io/badge/Grafana-F46800?logo=grafana&logoColor=white" />
   <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" />
 </p>
-<h1 align="center">Berkeley — Cloud Engineer</h1>
+<p align="center"><img src="banner.svg" alt="Berkeley — Cloud Engineer" width="100%"/></p>
+<h1 align="center">Berkeley â€” Cloud Engineer</h1>
 <p align="center">
-  I build and automate on <b>Azure</b>, <b>AWS</b> and <b>GCP</b> using PowerShell and IaC — with secure-by-default patterns, CI/CD, and observability baked in.
+  I build and automate on <b>Azure</b>, <b>AWS</b> and <b>GCP</b> using PowerShell and IaC â€” with secure-by-default patterns, CI/CD, and observability baked in.
 </p>
+<p align="center"><img src="banner.svg" alt="Berkeley — Cloud Engineer" width="100%"/></p>
 
 ### How I work
-- 🔐 **Security-first**: least privilege, IaC guardrails, reproducible environments  
-- 🧱 **Infrastructure as Code**: Bicep/Terraform templates over click-ops  
-- 🔁 **Automation**: GitHub Actions / Azure DevOps for build, test, lint, deploy  
-- 🔭 **Observability**: metrics, logs, and health dashboards as deliverables  
-- 🧪 **Tested**: scripts & modules come with examples and linting
+- ðŸ” **Security-first**: least privilege, IaC guardrails, reproducible environments  
+- ðŸ§± **Infrastructure as Code**: Bicep/Terraform templates over click-ops  
+- ðŸ” **Automation**: GitHub Actions / Azure DevOps for build, test, lint, deploy  
+- ðŸ”­ **Observability**: metrics, logs, and health dashboards as deliverables  
+- ðŸ§ª **Tested**: scripts & modules come with examples and linting
 
 ### Selected playbooks I’ve shipped
-- **Azure governance via Policy-as-Code** — baseline guardrails & MG assignments  
-- **Endpoint mgmt with Intune Win32** — silent installers + detection/uninstall scripts  
-- **Network modernization** — Basic ➜ Standard Public IP migration & SD-WAN/IPsec refs  
-- **Security automation** — Sentinel playbooks for enrichment and response  
-- **Cost control** — budgets, auto-shutdowns, anomaly pings
-
+- **Azure Policy-as-Code (Bicep)** — reusable policy modules and MG-level assignment helpers for PR-driven promotion. Includes examples like **deny Public IP**, **audit required RG tags**, and **MG assignment** scaffolding.  
+  → https://github.com/berkeleyo/azure-governance-policy-bicep
+- **Intune Win32 packaging kits** — opinionated templates with **silent install/uninstall**, **reliable detection**, and an uploader sample. Drop in your app, keep installs consistent.  
+  → https://github.com/berkeleyo/intune-win32-packages
+- **Azure Monitor → Teams** — **Bicep** Action Group plus **Logic App** posting rich Adaptive Cards to Teams, with **basic dedupe & throttling** to avoid alert storms.  
+  → https://github.com/berkeleyo/azure-monitor-teams-notifications
+- **Microsoft Sentinel automation** — Logic Apps to **notify Teams** with incident deep links and to **auto-close low severity** after dwell-time with no related activity.  
+  → https://github.com/berkeleyo/sentinel-automation-playbooks
+- **Public IP modernization** — discovery and planning to migrate legacy **Basic** Public IPs to **Standard** (safer defaults, ZRS-ready). Exports a migration plan you can execute.  
+  → https://github.com/berkeleyo/azure-public-ip-migration
+- **Fortinet SD-WAN / IPsec on Azure** — reference configs and guardrails for hub-and-spoke, HA notes, BGP tips, and **MTU/fragmentation** considerations.  
+  → https://github.com/berkeleyo/fortinet-azure-sdwan-ipsec
+- **VPN DNS decision guide** — practical paths for Azure-connected estates: conditional forwarders, **Azure DNS Private Resolver**, split-horizon patterns; pros/cons and when to use each.  
+  → https://github.com/berkeleyo/azure-vpn-dns-guidance
+- **Grafana backup health** — dashboard JSON + tiny **log parser** surfacing failures and aging; drop-in for quick backup reliability checks.  
+  → https://github.com/berkeleyo/grafana-backup-monitoring
+- **Azure DevOps YAML templates** — pipelines for **.NET**, **IaC**, and **PowerShell modules** (restore/cache, test, lint, version, publish).  
+  → https://github.com/berkeleyo/azure-devops-pipeline-templates
+- **PowerShell Az modules** — helpers like **New-SubBudget**, **Set-RequiredTags**, **Get-ResourceSummary** to standardize subscription ops.  
+  → https://github.com/berkeleyo/powershell-az-modules
+- **UniFi controller migration (Azure)** — runbook + health checks to move UniFi to Azure with minimal downtime.  
+  → https://github.com/berkeleyo/unifi-azure-migration-runbook
+- **Teams: risky users card** — Adaptive Card + Logic App summarizing identity risk signals for quick triage in Teams.  
+  → https://github.com/berkeleyo/teams-risky-users-card
 ---
 
 ### Projects
+<details open><summary><b>Project list</b> (tap to collapse)</summary>
 <table><tr>
 <td valign="top" width="50%">
   <b><a href="https://github.com/berkeleyo/intune-win32-packages">intune-win32-packages</a></b><br/>
@@ -79,7 +100,7 @@
 <tr>
 <td valign="top" width="50%">
   <b><a href="https://github.com/berkeleyo/azure-monitor-teams-notifications">azure-monitor-teams-notifications</a></b><br/>
-  Azure Monitor ÔåÆ Microsoft Teams notifications via Logic Apps<br/>
+  Azure Monitor Ã”Ã¥Ã† Microsoft Teams notifications via Logic Apps<br/>
   <img alt="Lang" src="https://img.shields.io/badge/PowerShell-informational" />
 </td>
 <td valign="top" width="50%">
@@ -91,7 +112,7 @@
 <tr>
 <td valign="top" width="50%">
   <b><a href="https://github.com/berkeleyo/azure-public-ip-migration">azure-public-ip-migration</a></b><br/>
-  Discover & migrate Basic Ô×£ Standard Azure Public IPs at scale<br/>
+  Discover & migrate Basic Ã”Ã—Â£ Standard Azure Public IPs at scale<br/>
   <img alt="Lang" src="https://img.shields.io/badge/PowerShell-informational" />
 </td>
 <td valign="top" width="50%">
@@ -136,9 +157,11 @@
   <img alt="Lang" src="https://img.shields.io/badge/HTML-informational" />
 </td>
 </tr></table>
+</details>
 
 ---
 
 <p align="center">
-  <i>Based in London — open to interesting cloud, automation, and security work.</i>
+  <i>Based in London â€” open to interesting cloud, automation, and security work.</i>
 </p>
+<p align="center"><img src="banner.svg" alt="Berkeley — Cloud Engineer" width="100%"/></p>
