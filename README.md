@@ -1,71 +1,59 @@
-## 👋 About Me
+﻿# Hey, I’m Berkeley — Cloud Engineer ☁️
 
-I’m **Berkeley Orogodo**, a **Lead Cloud & Infrastructure Engineer** specialising in **Azure**, **automation**, and **DevOps pipelines**.  
-I design and deliver **secure, scalable, and cost-optimised cloud environments** — automating provisioning, monitoring, and governance across enterprise Azure estates.
+I design, build, and run reliable platforms on **Microsoft Azure** with **IaC (Bicep/ARM), CI/CD, security automation, cost controls, and pragmatic runbooks**.
 
-💬 Ask me about: **Azure**, **DevOps**, **PowerShell**, **Bicep**, **Networking**, **Automation**, **Intune**, and **Cloud Security**
+## Portfolio (selected repos)
 
-📍 London, United Kingdom  
-✉️ Contact me on [LinkedIn](https://www.linkedin.com/in/berkeleyo):  
-[![My LinkedIn](https://img.shields.io/badge/LinkedIn%20Profile-Berkeley-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/berkeleyo/)
+- **Azure Governance (Policy-as-Code, Bicep)**  
+  https://github.com/berkeleyo/azure-governance-policy-bicep
 
----
+- **Azure DevOps Pipeline Templates (reusable YAML)**  
+  https://github.com/berkeleyo/azure-devops-pipeline-templates
 
-## 💡 Current Focus
+- **PowerShell for Azure Ops (modules + Pester CI)**  
+  https://github.com/berkeleyo/powershell-az-modules
 
-- Building **CI/CD pipelines** with **Azure DevOps (YAML)** and **GitHub Actions**  
-- Enforcing **Azure governance** through Policy-as-Code, tagging, and budgets  
-- Designing **Fortinet SD-WAN** and **IPsec tunnels** for hybrid Azure connectivity  
-- Automating **Intune** endpoint packaging and compliance policies  
-- Expanding IaC coverage with **Bicep modules** and **PowerShell automation**
+- **Intune Win32 Packaging (Teams bootstrapper, Kyocera)**  
+  https://github.com/berkeleyo/intune-win32-packages
 
----
+- **Security Automation (Sentinel + Logic Apps → Teams)**  
+  https://github.com/berkeleyo/sentinel-automation-playbooks
 
-## 🧰 Tech Stack
+- **Networking – Fortinet SD-WAN/IPsec to Azure**  
+  https://github.com/berkeleyo/fortinet-azure-sdwan-ipsec
 
-![Azure](https://img.shields.io/badge/Azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![PowerShell](https://img.shields.io/badge/PowerShell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white)
-![Bicep](https://img.shields.io/badge/Bicep-0066FF?style=for-the-badge&logo=microsoftazure&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-%235835CC.svg?style=for-the-badge&logo=terraform&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
-![Azure DevOps](https://img.shields.io/badge/Azure%20DevOps-0078D7?style=for-the-badge&logo=azuredevops&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
-![Microsoft Sentinel](https://img.shields.io/badge/Sentinel-%230078D4.svg?style=for-the-badge&logo=microsoft&logoColor=white)
-![Defender for Cloud](https://img.shields.io/badge/Defender%20for%20Cloud-107C10?style=for-the-badge&logo=microsoft&logoColor=white)
-![Intune](https://img.shields.io/badge/Intune-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)
-![Fortinet](https://img.shields.io/badge/Fortinet-E50914?style=for-the-badge&logo=fortinet&logoColor=white)
-![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
-![Python](https://img.shields.io/badge/Python-%233776AB.svg?style=for-the-badge&logo=python&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-%234EAA25.svg?style=for-the-badge&logo=gnubash&logoColor=white)
+- **UniFi Controller Migration (zero-downtime DNS cutover)**  
+  https://github.com/berkeleyo/unifi-azure-migration-runbook
 
----
+- **Cost Ops (budgets/alerts/lifecycle)**  
+  https://github.com/berkeleyo/azure-cost-ops-automation
 
-## 🚀 Featured Projects
+- **Azure Monitor → Teams (Action Groups & workflows)**  
+  https://github.com/berkeleyo/azure-monitor-teams-notifications
 
-| Project | Description | Tech |
-|----------|--------------|------|
-| **Azure Public IP Migration** | PowerShell automation to identify and migrate Basic → Standard Public IPs across 17+ subscriptions. | PowerShell, Azure CLI |
-| **UniFi Controller Migration to Azure** | Built a secure, automated Ubuntu controller VM with NSG lockdown and DNS failover. | Azure, Bash |
-| **Azure Cost Governance Automation** | Scripts for tagging enforcement, budget creation, and idle resource detection. | PowerShell, REST API |
-| **Intune Win32 App Modernisation** | Automated New Teams rollout using Win32 packaging and marker-file detection. | Intune, PowerShell |
-| **Fortinet SD-WAN Integration** | IPsec tunnel design connecting Azure hub VNets to BT-managed networks. | Fortinet, Azure Networking |
+- **Grafana Backup Health (dashboards + parser stub)**  
+  https://github.com/berkeleyo/grafana-backup-monitoring
 
----
+- **Logic App: Teams Risky Users Card (payload-capped)**  
+  https://github.com/berkeleyo/teams-risky-users-card
 
-## 🧠 Interests
+- **Azure Public IP Migration (Basic → Standard)**  
+  https://github.com/berkeleyo/azure-public-ip-migration
 
-Cloud automation • Infrastructure-as-Code • Hybrid networking • Security compliance • Cost optimisation
+- **Azure VPN DNS Guidance (why gateway DNS wins)**  
+  https://github.com/berkeleyo/azure-vpn-dns-guidance
+
+
+## Toolbelt
+
+**Azure** (ARM/Bicep, Policy, Monitor, DevOps, VNets), **PowerShell**, **Intune/Endpoint**,  
+**Microsoft Sentinel/Defender**, **Logic Apps**, **Teams**, **Fortinet SD-WAN/IPsec**, **UniFi**,  
+**Grafana**, **GitHub Actions/Azure Pipelines**, **IaC**, **CI/CD**.
+
+## Contact
+
+- GitHub: @berkeleyo
+- LinkedIn: (add your link)
 
 ---
-
-## 📊 GitHub Stats
-
-![Berkeley's GitHub stats](https://github-readme-stats.vercel.app/api?username=berkeleyo&show_icons=true&theme=react&hide_border=true)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=berkeleyo&layout=compact&theme=react&hide_border=true)
-
----
-
-⭐️ _“Automate everything — securely and at scale.”_
-
+> I’m a **Cloud Engineer** (currently acting as **Lead Infrastructure Engineer**).
