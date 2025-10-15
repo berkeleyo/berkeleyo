@@ -51,7 +51,7 @@
 
 ---
 
-### Project Gallery (≈80%)
+### Projects
 <table><tr>
 <td valign="top" width="50%">
   <b><a href="https://github.com/berkeleyo/intune-win32-packages">intune-win32-packages</a></b><br/>
