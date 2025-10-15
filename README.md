@@ -30,30 +30,24 @@
   <img src="https://img.shields.io/badge/Grafana-F46800?logo=grafana&logoColor=white" />
   <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" />
 </p>
-<h1 align="center">Berkeley â€” Cloud Engineer</h1>
+<h1 align="center">Berkeley — Cloud Engineer</h1>
 <p align="center">
-  I build and automate on <b>Azure</b>, <b>AWS</b> and <b>GCP</b> using PowerShell and IaC â€” with secure-by-default patterns, CI/CD, and observability baked in.
+  I build and automate on <b>Azure</b>, <b>AWS</b> and <b>GCP</b> using PowerShell and IaC — with secure-by-default patterns, CI/CD, and observability baked in.
 </p>
 
 ### How I work
-- ðŸ” **Security-first**: least privilege, IaC guardrails, reproducible environments  
-- ðŸ§± **Infrastructure as Code**: Bicep/Terraform templates over click-ops  
-- ðŸ” **Automation**: GitHub Actions / Azure DevOps for build, test, lint, deploy  
-- ðŸ”­ **Observability**: metrics, logs, and health dashboards as deliverables  
-- ðŸ§ª **Tested**: scripts & modules come with examples and linting
+- 🔐 **Security-first**: least privilege, IaC guardrails, reproducible environments  
+- 🧱 **Infrastructure as Code**: Bicep/Terraform templates over click-ops  
+- 🔁 **Automation**: GitHub Actions / Azure DevOps for build, test, lint, deploy  
+- 🔭 **Observability**: metrics, logs, and health dashboards as deliverables  
+- 🧪 **Tested**: scripts & modules come with examples and linting
 
 ### Selected playbooks I’ve shipped
-- **Azure Policy-as-Code (Bicep)** — MG-level assignments with reusable modules; samples include **deny Public IP**, **audit required RG tags**, plus a **management group assignment** helper. Designed for PR-based promotion (UAT → Prod).
-- **Intune Win32 packaging kits** — opinionated templates with **silent install/uninstall** and **robust detection** (e.g., New Teams, printer/scanner packages). Includes sample Create-Win32App.ps1 and a barebones **Win32 app template** to fork.
-- **Azure Monitor → Teams on-call** — **Bicep** action group + **Logic App** that posts an Adaptive Card into Teams; includes basic **dedupe** and **throttling** patterns to avoid noise.
-- **Microsoft Sentinel automation** — Logic Apps to **notify Teams** with incident deep-links and to **auto-close low-severity** alerts after dwell-time with no related activity.
-- **Public IP modernization** — discovery scripts to find legacy **Basic** Public IPs, export a migration plan, and guide upgrade to **Standard** (safer defaults, ZRS-ready).
-- **Fortinet SD-WAN / IPsec on Azure** — reference configs for **hub-and-spoke**, HA notes, BGP tips, and **MTU/fragmentation** guardrails.
-- **VPN DNS decision guide** — practical options for Azure-connected estates (conditional forwarders, **Azure DNS Private Resolver**, split-horizon patterns) with pros/cons and when to use each.
-- **Grafana backup health** — dashboard JSON + a small **log parser** to surface failures, success rates, and aging — built to be copy-paste into any Grafana.
-- **Azure DevOps YAML templates** — ready-made pipelines for **.NET**, **IaC**, and **PowerShell modules** (restore/cache, test, lint, versioning, and publish steps).
-- **PowerShell Az modules** — helpers like **New-SubBudget**, **Set-RequiredTags**, and **Get-ResourceSummary** to standardize daily ops.
-- **Teams: risky users card** — Adaptive Card + Logic App that summarizes identity risk signals for quick triage in Teams.
+- **Azure governance via Policy-as-Code** — baseline guardrails & MG assignments  
+- **Endpoint mgmt with Intune Win32** — silent installers + detection/uninstall scripts  
+- **Network modernization** — Basic ➜ Standard Public IP migration & SD-WAN/IPsec refs  
+- **Security automation** — Sentinel playbooks for enrichment and response  
+- **Cost control** — budgets, auto-shutdowns, anomaly pings
 
 ---
 
@@ -85,7 +79,7 @@
 <tr>
 <td valign="top" width="50%">
   <b><a href="https://github.com/berkeleyo/azure-monitor-teams-notifications">azure-monitor-teams-notifications</a></b><br/>
-  Azure Monitor Ã”Ã¥Ã† Microsoft Teams notifications via Logic Apps<br/>
+  Azure Monitor ÔåÆ Microsoft Teams notifications via Logic Apps<br/>
   <img alt="Lang" src="https://img.shields.io/badge/PowerShell-informational" />
 </td>
 <td valign="top" width="50%">
@@ -97,7 +91,7 @@
 <tr>
 <td valign="top" width="50%">
   <b><a href="https://github.com/berkeleyo/azure-public-ip-migration">azure-public-ip-migration</a></b><br/>
-  Discover & migrate Basic Ã”Ã—Â£ Standard Azure Public IPs at scale<br/>
+  Discover & migrate Basic Ô×£ Standard Azure Public IPs at scale<br/>
   <img alt="Lang" src="https://img.shields.io/badge/PowerShell-informational" />
 </td>
 <td valign="top" width="50%">
@@ -146,5 +140,5 @@
 ---
 
 <p align="center">
-  <i>Based in London â€” open to interesting cloud, automation, and security work.</i>
+  <i>Based in London — open to interesting cloud, automation, and security work.</i>
 </p>
