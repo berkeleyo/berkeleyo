@@ -1,12 +1,70 @@
-## About Me
+## 👋 About Me
 
-Cloud Engineer with expertise across multiple domains.
+I’m **Berkeley Orogodo**, a **Lead Cloud & Infrastructure Engineer** specialising in **Azure**, **automation**, and **DevOps pipelines**.  
+I design and deliver **secure, scalable, and cost-optimised cloud environments** — automating provisioning, monitoring, and governance across enterprise Azure estates.
 
-💬 Ask me about: DevOps, Cloud, Data, Coding, APIs...
+💬 Ask me about: **Azure**, **DevOps**, **PowerShell**, **Bicep**, **Networking**, **Automation**, **Intune**, and **Cloud Security**
 
-✉️ Contact me on [LinkedIn](https://www.linkedin.com/in/berkeleyo):
-[![My LinkedIn](https://img.shields.io/badge/LinkedIn%20Profile-Berkeley-blue?logo=data:image/svg%2bxml;base64,PHN2ZyByb2xlPSJpbWciIGZpbGw9IiNmZmZmZmYiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+TGlua2VkSW48L3RpdGxlPjxwYXRoIGQ9Ik0yMC40NDcgMjAuNDUyaC0zLjU1NHYtNS41NjljMC0xLjMyOC0uMDI3LTMuMDM3LTEuODUyLTMuMDM3LTEuODUzIDAtMi4xMzYgMS40NDUtMi4xMzYgMi45Mzl2NS42NjdIOS4zNTFWOWgzLjQxNHYxLjU2MWguMDQ2Yy40NzctLjkgMS42MzctMS44NSAzLjM3LTEuODUgMy42MDEgMCA0LjI2NyAyLjM3IDQuMjY3IDUuNDU1djYuMjg2ek01LjMzNyA3LjQzM2MtMS4xNDQgMC0yLjA2My0uOTI2LTIuMDYzLTIuMDY1IDAtMS4xMzguOTItMi4wNjMgMi4wNjMtMi4wNjMgMS4xNCAwIDIuMDY0LjkyNSAyLjA2NCAyLjA2MyAwIDEuMTM5LS45MjUgMi4wNjUtMi4wNjQgMi4wNjV6bTEuNzgyIDEzLjAxOUgzLjU1NVY5aDMuNTY0djExLjQ1MnpNMjIuMjI1IDBIMS43NzFDLjc5MiAwIDAgLjc3NCAwIDEuNzI5djIwLjU0MkMwIDIzLjIyNy43OTIgMjQgMS43NzEgMjRoMjAuNDUxQzIzLjIgMjQgMjQgMjMuMjI3IDI0IDIyLjI3MVYxLjcyOUMyNCAuNzc0IDIzLjIgMCAyMi4yMjIgMGguMDAzeiIvPjwvc3ZnPgo=)](https://www.linkedin.com/in/berkeleyo/)
+📍 London, United Kingdom  
+✉️ Contact me on [LinkedIn](https://www.linkedin.com/in/berkeleyo):  
+[![My LinkedIn](https://img.shields.io/badge/LinkedIn%20Profile-Berkeley-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/berkeleyo/)
 
+---
 
-# 💻 Tech Stack:
-![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white) ![Datadog](https://img.shields.io/badge/datadog-%23632CA6.svg?style=for-the-badge&logo=datadog&logoColor=white) ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white) ![AmazonDynamoDB](https://img.shields.io/badge/Amazon%20DynamoDB-4053D6?style=for-the-badge&logo=Amazon%20DynamoDB&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![MicrosoftSQLServer](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white) ![Adobe](https://img.shields.io/badge/adobe-%23FF0000.svg?style=for-the-badge&logo=adobe&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![PowerShell](https://img.shields.io/badge/PowerShell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white) ![.Net](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![Terraform](https://img.shields.io/badge/terraform-%235835CC.svg?style=for-the-badge&logo=terraform&logoColor=white) ![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white) ![Jira](https://img.shields.io/badge/jira-%230A0FFF.svg?style=for-the-badge&logo=jira&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![Cisco](https://img.shields.io/badge/cisco-%23049fd9.svg?style=for-the-badge&logo=cisco&logoColor=black) ![Power Bi](https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+## 💡 Current Focus
+
+- Building **CI/CD pipelines** with **Azure DevOps (YAML)** and **GitHub Actions**  
+- Enforcing **Azure governance** through Policy-as-Code, tagging, and budgets  
+- Designing **Fortinet SD-WAN** and **IPsec tunnels** for hybrid Azure connectivity  
+- Automating **Intune** endpoint packaging and compliance policies  
+- Expanding IaC coverage with **Bicep modules** and **PowerShell automation**
+
+---
+
+## 🧰 Tech Stack
+
+![Azure](https://img.shields.io/badge/Azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![PowerShell](https://img.shields.io/badge/PowerShell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white)
+![Bicep](https://img.shields.io/badge/Bicep-0066FF?style=for-the-badge&logo=microsoftazure&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-%235835CC.svg?style=for-the-badge&logo=terraform&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+![Azure DevOps](https://img.shields.io/badge/Azure%20DevOps-0078D7?style=for-the-badge&logo=azuredevops&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+![Microsoft Sentinel](https://img.shields.io/badge/Sentinel-%230078D4.svg?style=for-the-badge&logo=microsoft&logoColor=white)
+![Defender for Cloud](https://img.shields.io/badge/Defender%20for%20Cloud-107C10?style=for-the-badge&logo=microsoft&logoColor=white)
+![Intune](https://img.shields.io/badge/Intune-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)
+![Fortinet](https://img.shields.io/badge/Fortinet-E50914?style=for-the-badge&logo=fortinet&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
+![Python](https://img.shields.io/badge/Python-%233776AB.svg?style=for-the-badge&logo=python&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-%234EAA25.svg?style=for-the-badge&logo=gnubash&logoColor=white)
+
+---
+
+## 🚀 Featured Projects
+
+| Project | Description | Tech |
+|----------|--------------|------|
+| **Azure Public IP Migration** | PowerShell automation to identify and migrate Basic → Standard Public IPs across 17+ subscriptions. | PowerShell, Azure CLI |
+| **UniFi Controller Migration to Azure** | Built a secure, automated Ubuntu controller VM with NSG lockdown and DNS failover. | Azure, Bash |
+| **Azure Cost Governance Automation** | Scripts for tagging enforcement, budget creation, and idle resource detection. | PowerShell, REST API |
+| **Intune Win32 App Modernisation** | Automated New Teams rollout using Win32 packaging and marker-file detection. | Intune, PowerShell |
+| **Fortinet SD-WAN Integration** | IPsec tunnel design connecting Azure hub VNets to BT-managed networks. | Fortinet, Azure Networking |
+
+---
+
+## 🧠 Interests
+
+Cloud automation • Infrastructure-as-Code • Hybrid networking • Security compliance • Cost optimisation
+
+---
+
+## 📊 GitHub Stats
+
+![Berkeley's GitHub stats](https://github-readme-stats.vercel.app/api?username=berkeleyo&show_icons=true&theme=react&hide_border=true)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=berkeleyo&layout=compact&theme=react&hide_border=true)
+
+---
+
+⭐️ _“Automate everything — securely and at scale.”_
