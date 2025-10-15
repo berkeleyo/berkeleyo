@@ -43,11 +43,16 @@
 - 🧪 **Tested**: scripts & modules come with examples and linting
 
 ### Selected playbooks I’ve shipped
-- **Azure governance via Policy-as-Code** — baseline guardrails & MG assignments  
-- **Endpoint mgmt with Intune Win32** — silent installers + detection/uninstall scripts  
-- **Network modernization** — Basic ➜ Standard Public IP migration & SD-WAN/IPsec refs  
-- **Security automation** — Sentinel playbooks for enrichment and response  
-- **Cost control** — budgets, auto-shutdowns, anomaly pings
+- **Azure governance via Policy-as-Code** — Bicep modules with MG scoping, CI-driven promotion, and real guardrails: *deny Public IP*, *audit required RG tags*, and *deployIfNotExists* scaffolding.
+- **Endpoint mgmt with Intune Win32** — opinionated packaging kits: **silent install/uninstall**, robust **detection** scripts, and repeatable folder layout. Examples include New Teams and printer/scanner packages.
+- **Network modernization** — discovery of legacy **Basic** Public IPs, exportable migration plan (CSV), and a safe upgrade flow to **Standard** with a change-window checklist.
+- **Security automation** — Microsoft Sentinel Logic Apps to **notify Teams** with deep links, and **auto-close low-severity** after dwell time when there’s no related activity.
+- **Azure Monitor → Teams** — Action Group + Logic App that posts rich Adaptive Cards, with basic **dedupe/throttling** to prevent alert storms and routing by severity.
+- **Fortinet SD-WAN / IPsec references** — copy-ready configs for hub-and-spoke, HA notes, **BGP** tips, and **MTU/fragmentation** guardrails for reliable tunnels.
+- **VPN DNS decision guide** — practical patterns for hybrid estates: **Azure DNS Private Resolver**, conditional forwarders, split-horizon DNS; pros/cons and when to use each.
+- **Azure DevOps YAML templates** — pipelines for **.NET**, **IaC**, and **PowerShell modules** with caching, test, lint (**PSScriptAnalyzer**), semantic versioning, and publish steps.
+- **Grafana backup health** — dashboard JSON plus a small **log parser** to surface failures, aging, and success trends for quick reliability checks.
+- **PowerShell Az modules** — utilities like **New-SubBudget**, **Set-RequiredTags**, and **Get-ResourceSummary** to standardize subscription operations.
 
 ---
 
