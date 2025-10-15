@@ -19,6 +19,8 @@ My work focuses on automation, observability, and secure enterprise integration 
 ### 🚀 Featured Projects
 | Project | Description |
 |----------|--------------|
+| [**gcp-teams-alerts**](https://github.com/berkeleyo/gcp-teams-alerts) | Monitoring → Cloud Function → Teams (Adaptive Card) |
+| [**aws-teams-alerts**](https://github.com/berkeleyo/aws-teams-alerts) | CloudWatch → SNS → Lambda → Teams (Adaptive Card) |
 | [**azure-governance-policy-bicep**](https://github.com/berkeleyo/azure-governance-policy-bicep) | Policy-as-code for Azure governance and compliance |
 | [**azure-devops-pipeline-templates**](https://github.com/berkeleyo/azure-devops-pipeline-templates) | Modular CI/CD templates for PowerShell and automation |
 | [**powershell-az-modules**](https://github.com/berkeleyo/powershell-az-modules) | Custom PowerShell modules for Azure operations |
@@ -57,6 +59,7 @@ My work focuses on automation, observability, and secure enterprise integration 
   <img alt="Windows" src="https://img.shields.io/badge/Windows-0078D6?logo=windows&logoColor=white" />
   <img alt="SQL" src="https://img.shields.io/badge/SQL-025E8C?logo=databricks&logoColor=white" />
 </p>
+
 
 
 
