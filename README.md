@@ -26,9 +26,8 @@
 </p>
 
 <p align="center">
-  <!-- Fun / meta -->
+  <!-- Fun / meta (no followers badge) -->
   <img alt="Profile views" src="https://komarev.com/ghpvc/?username=berkeleyo&label=Views&style=flat">
-  <a href="https://github.com/berkeleyo?tab=followers"><img alt="Followers" src="https://img.shields.io/github/followers/berkeleyo?label=Followers&style=flat"></a>
   <a href="https://github.com/berkeleyo"><img alt="Stars" src="https://img.shields.io/github/stars/berkeleyo?affiliations=OWNER%2CCOLLABORATOR&style=flat"></a>
 </p>
 
@@ -47,14 +46,37 @@ I build and automate on **Azure, AWS, and GCP** using **PowerShell** and **IaC**
 
 ---
 
-## Selected playbooks I’ve shipped
+## Highlighted projects
 
-- **Azure Public IP modernization** — discovery of legacy **Basic** Public IPs, exportable migration plan (CSV), and a safe **workflow to Standard tier** with a change-window checklist.  
-- **Azure Monitor → Teams** — Action Group + Logic App posting rich **Adaptive Cards**, with deduplication/throttling to prevent alert storms and severity-based routing.  
-- **UniFi Controller migration (IONOS → Azure)** — pinned app version, hardened VM, NSG policy, and no-downtime **DNS cutover** with device re-adoption.  
-- **SD-WAN (Fortinet) rollout** — transition from MPLS, with web filtering backed by Fortinet and clean traffic segmentation.
+- **Azure Public IP migration** — Discover **Basic** Public IPs, export a migration plan (CSV), and run a safe **workflow to Standard tier** with a change-window checklist.  
+  `PowerShell` • https://github.com/berkeleyo/azure-public-ip-migration
 
-> Want the runbooks? Many are public or summarized in repo READMEs.
+- **Fortinet Azure SD-WAN & IPsec** — Reference configs and notes for Azure hub-and-spoke SD-WAN topologies (HA/BGP/MTU guardrails).  
+  https://github.com/berkeleyo/fortinet-azure-sdwan-ipsec
+
+- **Sentinel automation playbooks** — Logic Apps for Microsoft Sentinel alert enrichment/response; throttling and smart routing.  
+  https://github.com/berkeleyo/sentinel-automation-playbooks
+
+- **UniFi Controller migration (IONOS → Azure)** — Pinned app version, hardened VM, tight NSGs, **DNS cutover** with re-adoption.  
+  `PowerShell` • https://github.com/berkeleyo/unifi-azure-migration-runbook
+
+- **Azure Monitor → Teams** — Action Group + Logic App posting rich **Adaptive Cards** with dedup/throttle & severity routing.  
+  https://github.com/berkeleyo/azure-monitor-teams-notifications
+
+- **Azure DevOps pipeline templates** — Reusable YAML for .NET/IaC/PowerShell with caching, test, lint, semantic versioning, publish.  
+  https://github.com/berkeleyo/azure-devops-pipeline-templates
+
+- **Azure governance policy (Bicep)** — Policy-as-code samples & assignment templates (deny Public IP, tag audit, DINE scaffolding).  
+  https://github.com/berkeleyo/azure-governance-policy-bicep
+
+- **Risky users/sign-ins Teams card** — Adaptive Card template + Logic App for identity risk surfaces in a single post.  
+  https://github.com/berkeleyo/teams-risky-users-card
+
+- **Grafana backup monitoring** — Dashboards + small log parser to verify backup health and aging.  
+  `Python` • https://github.com/berkeleyo/grafana-backup-monitoring
+
+- **PowerShell Az modules** — Helpers like `New-SubBudget`, `Set-RequiredTags`, `Get-ResourceSummary` to standardize ops.  
+  https://github.com/berkeleyo/powershell-az-modules
 
 ---
 
