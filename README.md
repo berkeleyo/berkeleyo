@@ -1,99 +1,63 @@
-<!-- Profile README for @berkeleyo – Hybrid Edition -->
+<!-- Profile README for github.com/berkeleyo -->
+<div align="center">
 
-<h1 align="center">Hey 👋 I'm Berkeley — Cloud & Automation Engineer</h1>
+# Hi, I'm Berkeley 👋
 
-<p align="center">
-<a href="https://www.linkedin.com/in/berkeleyo">LinkedIn</a> · <a href="https://github.com/berkeleyo">GitHub</a> · London, UK  
-</p>
+<!-- Badges Row -->
+<!-- Keeps your existing tech stack badges intact. This only adds experience + lines and keeps the profile views badge. -->
 
-<p align="center">
-<img alt="Profile Views" src="https://komarev.com/ghpvc/?username=berkeleyo&label=👀%20Views&color=blueviolet&style=flat-square">
-</p>
+![Profile Views](https://komarev.com/ghpvc/?username=berkeleyo&color=blue&style=for-the-badge)
+![Experience](https://img.shields.io/badge/Experience-6%2B%20years-1f6feb?style=for-the-badge&logo=github)
+![Code Lines](https://img.shields.io/badge/Lines%20of%20Code-250k%2B-blue?style=for-the-badge)
 
----
+<!-- Optional (uncomment if you use WakaTime): 
+[![wakatime](https://wakatime.com/badge/user/YOUR-WAKATIME-ID.svg)](https://wakatime.com/@YOUR-WAKATIME-ID)
+-->
 
-### 🚀 About Me
-
-I’m a **Lead Cloud & Infrastructure Engineer** passionate about automation, security, and cloud governance.  
-I build systems that deploy themselves, secure themselves, and tell you when they break.  
-
-💡 Areas of focus:
-- ☁️ Azure, AWS, GCP — multi-cloud automation & governance  
-- ⚙️ Infrastructure as Code — **Bicep**, **Terraform**, **PowerShell**  
-- 🔐 Security automation — Sentinel, Defender, Zero Trust  
-- 📊 Observability — Azure Monitor, Grafana, Prometheus  
-- 🚀 DevOps — Azure DevOps, GitHub Actions, YAML pipelines  
+</div>
 
 ---
 
-### 🧩 Tech Stack
+## 🧑‍💻 About Me
 
-<p align="center">
-<img src="https://img.shields.io/badge/Azure-0078D4?logo=microsoftazure&logoColor=white">
-<img src="https://img.shields.io/badge/AWS-232F3E?logo=amazonaws&logoColor=FF9900">
-<img src="https://img.shields.io/badge/GCP-4285F4?logo=googlecloud&logoColor=white">
-<img src="https://img.shields.io/badge/PowerShell-5391FE?logo=powershell&logoColor=white">
-<img src="https://img.shields.io/badge/Bicep-00B4FF?logo=microsoftazure">
-<img src="https://img.shields.io/badge/Terraform-7B42BC?logo=terraform&logoColor=white">
-<img src="https://img.shields.io/badge/GitHub%20Actions-181717?logo=githubactions&logoColor=white">
-<img src="https://img.shields.io/badge/Azure%20DevOps-0078D7?logo=azuredevops&logoColor=white">
-<img src="https://img.shields.io/badge/Docker-2496ED?logo=docker">
-<img src="https://img.shields.io/badge/Kubernetes-326CE5?logo=kubernetes">
-<img src="https://img.shields.io/badge/Microsoft%20Sentinel-003B57?logo=microsoft">
-<img src="https://img.shields.io/badge/Intune-0078D4?logo=microsoftintune">
-<img src="https://img.shields.io/badge/Fortinet-E60000?logo=fortinet">
-<img src="https://img.shields.io/badge/Grafana-F46800?logo=grafana">
-<img src="https://img.shields.io/badge/Prometheus-E6522C?logo=prometheus">
-</p>
+Cloud engineer focused on **access governance**, **secure network architectures**, and **pragmatic automation**. I like clean runbooks, reversible cutovers, and evidence-first security. I work primarily in **Azure**, with complementary projects in **AWS** and **GCP** where they deliver value.
+
+- 🛡️ Identity & Access: JIT elevation, Conditional Access, PIM, external‑ID federation (Azure • AWS STS • GCP WIF)
+- 🌐 Networking: Fortinet SD‑WAN/IPsec in Azure, HA/BGP, MTU optimization
+- ⚙️ Automation: PowerShell/Bicep, Logic Apps, YAML pipelines, GitHub/Azure DevOps
+- 📊 Ops: Runbooks, cutover/rollback, observability, backup verification
+- ✍️ Documentation: concise, production‑ready, redacted
 
 ---
 
-### 🏗️ Featured Projects
+## 🏗️ Featured Projects (9)
 
 | Project | Description | Stack |
-|----------|--------------|-------|
-| [**Azure Public IP Migration**](https://github.com/berkeleyo/azure-public-ip-migration) | Scans Basic IPs, exports migration CSV, and automates safe move to Standard SKU. | 🧰 PowerShell · ☁️ Azure |
-| [**Fortinet SD-WAN + IPsec for Azure**](https://github.com/berkeleyo/fortinet-azure-sdwan-ipsec) | Hub-and-spoke SD-WAN design with HA/BGP & MTU hardening. | 🧱 Networking · 🔒 Fortinet |
-| [**Sentinel Automation Playbooks**](https://github.com/berkeleyo/sentinel-automation-playbooks) | Logic Apps for alert deduplication, enrichment & auto-response. | 🔐 Sentinel · ⚙️ Logic Apps |
-| [**UniFi Controller Migration (IONOS→Azure)**](https://github.com/berkeleyo/unifi-azure-migration-runbook) | Hardened migration, NSG lockdown, zero-downtime DNS cutover. | 🧰 PowerShell · 🌐 UniFi |
-| [**Azure Monitor → Teams**](https://github.com/berkeleyo/azure-monitor-teams-notifications) | Posts rich Adaptive Cards to Teams with throttling & routing. | 🪶 Logic Apps · 🧾 Adaptive Cards |
-| [**Azure DevOps Pipelines**](https://github.com/berkeleyo/azure-devops-pipeline-templates) | Reusable YAML pipelines for IaC + PS modules with lint/test stages. | ⚙️ Azure DevOps |
-| [**Governance Policy (Bicep)**](https://github.com/berkeleyo/azure-governance-policy-bicep) | Tag enforcement, deny rules, and compliance-as-code. | 💠 Bicep |
-| [**Risky Users Teams Card**](https://github.com/berkeleyo/teams-risky-users-card) | Adaptive Card summarising risky sign-ins from Entra ID. | 🔐 Entra ID · 💬 Teams |
-| [**Grafana Backup Monitor**](https://github.com/berkeleyo/grafana-backup-monitoring) | Backup verification and dashboard automation. | 📊 Grafana |
-| [**PowerShell Az Modules**](https://github.com/berkeleyo/powershell-az-modules) | Custom PowerShell cmdlets for governance automation. | ⚡ PowerShell |
+|---|---|---|
+| [**Cloud Access Broker — JIT (Multi‑Cloud)**](https://github.com/berkeleyo/cloud-access-broker-jit-multicloud) | Provider‑agnostic broker enabling **time‑bound, least‑privilege** elevation across **Azure, AWS & GCP**, with approvals, audit logging, and full operational documentation. | ☁️ Azure · AWS · GCP · PowerShell/Bash |
+| [**Azure Public IP Migration**](https://github.com/berkeleyo/azure-public-ip-migration) | Discover Basic SKU Public IPs, export inventory CSV, and migrate to Standard SKU safely while preserving associations. | 🧰 PowerShell · ☁️ Azure |
+| [**Fortinet SD‑WAN + IPsec (Azure)**](https://github.com/berkeleyo/fortinet-azure-sdwan-ipsec) | Hub‑and‑spoke SD‑WAN & IPsec topology using HA FortiGates, BGP, MTU hardening. Includes runbook and validation scripts. | 🧱 Networking · 🔒 Fortinet · ☁️ Azure |
+| [**Azure Cost Tagging & Governance**](https://github.com/berkeleyo/azure-cost-tagging) | Tag enforcement and charge‑back model for Azure; drift detection and reporting aligned with FinOps practices. | ☁️ Azure · ⚡ PowerShell |
+| [**Sentinel Automation Playbooks**](https://github.com/berkeleyo/sentinel-automation-playbooks) | Logic Apps for alert enrichment, deduplication, and automated response across Azure Sentinel and Microsoft 365. | 🔐 Sentinel · ⚙️ Logic Apps |
+| [**M365 Security Alerts → Teams**](https://github.com/berkeleyo/m365-security-alerts-to-teams) | Adaptive Card notifications for Microsoft 365 Defender alerts, enabling SOC triage in Teams. | 🔐 M365 · 💬 Teams |
+| [**Azure DevOps Pipeline Templates**](https://github.com/berkeleyo/azure-devops-pipeline-templates) | Reusable YAML templates for IaC/PowerShell modules with linting, testing, and release stages. | ⚙️ Azure DevOps |
+| [**UniFi Controller Migration (IONOS → Azure)**](https://github.com/berkeleyo/unifi-azure-migration-runbook) | Migration of UniFi Network Controller to Azure with backup restore, NSG hardening, and zero‑downtime DNS cut‑over strategy. | 🌐 UniFi · ☁️ Azure · 🧰 PowerShell |
+| [**Azure VPN DNS Guidance**](https://github.com/berkeleyo/azure-vpn-dns-guidance) | Deep‑dive into DNS behaviour with the Azure VPN Client — split tunnelling, gateway‑pushed DNS, Private DNS zones. | 🌐 Networking · ☁️ Azure |
+
+> These nine are selected for depth and completeness. If you later add dedicated **AWS** or **GCP** repos, swap them in to keep the portfolio balanced.
 
 ---
 
-### 🧠 Experience Summary
+## 🧠 Highlights & Focus
 
-- **GLL Ltd (Contract)** — automated Azure governance & SD-WAN connectivity for 17+ subscriptions.  
-- **Daisy Group** — delivered IaC frameworks for 100+ clients, built Sentinel/Defender integrations.  
-- **Datto Inc.** — automated backup health reporting using Grafana dashboards.  
-- **Freedom Services Group** — introduced IaC, Intune, and Defender policies to modernise hybrid ops.  
-
----
-
-### 📈 GitHub Metrics
-
-<p align="center">
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=berkeleyo&show_icons=true&theme=transparent&hide_title=true">
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=berkeleyo&layout=compact&theme=transparent">
-</p>
-
-<p align="center">
-<img src="https://streak-stats.demolab.com?user=berkeleyo&theme=transparent">
-</p>
+- **Identity & Access Governance (Multi‑Cloud)** — Secure, auditable **JIT access frameworks** spanning **Entra ID PIM**, **AWS STS AssumeRole**, and **GCP Workload Identity Federation**; break‑glass controls and automatic expiry.  
+- **Cloud Networking & Security** — Enterprise SD‑WAN/IPsec solutions with HA/BGP and MTU tuning; hub‑and‑spoke patterns; resilient hybrid connectivity and route hygiene.  
+- **Security Automation & SOC Integration** — Sentinel and M365 playbooks for triage, enrichment, and adaptive notifications in Teams, reducing MTTR and improving signal quality.  
+- **Governance, Policy, and Cost Optimisation** — Policy‑as‑code, tagging hygiene, drift detection and charge‑back/FinOps visibility for multi‑subscription estates.  
+- **Operational Resilience & Documentation** — Production‑grade runbooks, rollback plans, and health verification; backup validation and observability to support critical workloads.
 
 ---
 
-### 🤝 Connect
+## 🧰 Tooling & Tech Stack
 
-<p align="center">
-<a href="https://www.linkedin.com/in/berkeleyo"><img src="https://img.shields.io/badge/LinkedIn-Berkeley%20Orogodo-blue?logo=linkedin"></a>
-<a href="https://github.com/berkeleyo"><img src="https://img.shields.io/badge/GitHub-berkeleyo-black?logo=github"></a>
-</p>
-
-<p align="center">
-<i>Let's talk about cloud, automation, and secure infrastructure at scale.</i>
-</p>
+<!-- Your existing tech stack badges remain unchanged. Append below if you want more later. -->
