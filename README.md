@@ -1,10 +1,14 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> bd503df3b0be6b7c9252fbcebd684807edda3f02
 <!-- Profile README for github.com/berkeleyo -->
 <div align="center">
 
 # Hi, I'm Berkeley 👋
 
 <!-- Badges Row -->
+<<<<<<< HEAD
 <!-- Views + Experience + REAL Lines of Code (auto-updating via GitHub Action) -->
 ![Profile Views](https://komarev.com/ghpvc/?username=berkeleyo&color=blue&style=for-the-badge)
 ![Experience](https://img.shields.io/badge/Experience-6%2B%20years-1f6feb?style=for-the-badge&logo=github)
@@ -32,6 +36,17 @@
 <img src="https://img.shields.io/badge/Logic%20Apps-0078D4?logo=microsoftazure&logoColor=white">
 <img src="https://img.shields.io/badge/FortiGate-E60000?logo=fortinet&logoColor=white">
 </p>
+=======
+<!-- Keeps your existing tech stack badges intact. This only adds experience + lines and keeps the profile views badge. -->
+
+![Profile Views](https://komarev.com/ghpvc/?username=berkeleyo&color=blue&style=for-the-badge)
+![Experience](https://img.shields.io/badge/Experience-6%2B%20years-1f6feb?style=for-the-badge&logo=github)
+![Code Lines](https://img.shields.io/badge/Lines%20of%20Code-250k%2B-blue?style=for-the-badge)
+
+<!-- Optional (uncomment if you use WakaTime): 
+[![wakatime](https://wakatime.com/badge/user/YOUR-WAKATIME-ID.svg)](https://wakatime.com/@YOUR-WAKATIME-ID)
+-->
+>>>>>>> bd503df3b0be6b7c9252fbcebd684807edda3f02
 
 </div>
 
@@ -63,6 +78,11 @@ Cloud engineer focused on **access governance**, **secure network architectures*
 | [**UniFi Controller Migration (IONOS → Azure)**](https://github.com/berkeleyo/unifi-azure-migration-runbook) | Migration of UniFi Network Controller to Azure with backup restore, NSG hardening, and zero‑downtime DNS cut‑over strategy. | 🌐 UniFi · ☁️ Azure · 🧰 PowerShell |
 | [**Azure VPN DNS Guidance**](https://github.com/berkeleyo/azure-vpn-dns-guidance) | Deep‑dive into DNS behaviour with the Azure VPN Client — split tunnelling, gateway‑pushed DNS, Private DNS zones. | 🌐 Networking · ☁️ Azure |
 
+<<<<<<< HEAD
+=======
+> These nine are selected for depth and completeness. If you later add dedicated **AWS** or **GCP** repos, swap them in to keep the portfolio balanced.
+
+>>>>>>> bd503df3b0be6b7c9252fbcebd684807edda3f02
 ---
 
 ## 🧠 Highlights & Focus
@@ -77,4 +97,8 @@ Cloud engineer focused on **access governance**, **secure network architectures*
 
 ## 🧰 Tooling & Tech Stack
 
+<<<<<<< HEAD
 <!-- Your existing tech stack badges remain unchanged. Append more later if desired. -->
+=======
+<!-- Your existing tech stack badges remain unchanged. Append below if you want more later. -->
+>>>>>>> bd503df3b0be6b7c9252fbcebd684807edda3f02
