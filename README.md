@@ -64,11 +64,51 @@ I work primarily in **Azure**, with complementary projects in **AWS** and **GCP*
 
 ## 🧠 Highlights & Focus
 
-- **Identity & Access Governance (Multi-Cloud)** — Secure, auditable JIT access spanning **Entra ID PIM**, **AWS STS AssumeRole**, and **GCP Workload Identity Federation**.  
-- **Cloud Networking & Security** — Enterprise SD-WAN/IPsec with HA/BGP and MTU tuning; hub-and-spoke patterns; deterministic egress.  
-- **Security Automation & SOC Integration** — Sentinel/M365 playbooks for enrichment, triage, and notification routing to Teams.  
-- **Governance & FinOps** — Policy-as-code, tagging hygiene, drift detection, and cost accountability across estates.  
-- **Operational Resilience** — Production-grade runbooks, rollback plans, and health checks to ensure smooth cutovers.
+- **Identity & Access Governance (Multi-Cloud)** — Designing and operating secure, auditable JIT access models across Entra ID PIM, AWS STS AssumeRole, and GCP Workload Identity Federation.
+- **Cloud Networking & Security** — Enterprise SD-WAN / IPsec with HA & BGP, MTU tuning, hub-and-spoke design, firewall chaining, and deterministic egress patterns.
+- **Platform & Access Automation** — PowerShell-driven automation for access workflows, infrastructure provisioning, Intune remediation, and operational tooling.
+- **Security Automation & SOC Integration** — Sentinel and M365 playbooks for enrichment, triage, and routing alerts into operational channels (Teams / ticketing).
+- **Governance & Cost Control** — Policy enforcement, tagging hygiene, drift detection, and accountability across cloud estates.
+- **Operational Resilience** — Production-grade runbooks, health checks, backup validation, controlled cutovers, and deterministic rollback procedures.
+
+---
+
+## 🚀 Professional Impact
+
+- Designed and implemented identity-first access models that removed standing privileges across multi-cloud environments.
+- Led multiple production migrations and cutovers (DNS, network, platform) using reversible change patterns and pre-validated rollback paths.
+- Standardised cloud networking architectures (hub-and-spoke, firewall chaining, VPN / SD-WAN) to reduce operational risk and configuration drift.
+- Built automation replacing manual access provisioning, onboarding flows, and environment configuration tasks.
+- Authored operational runbooks used for on-call support, incident response, and long-term platform handover.
+
+---
+
+## 🧭 How I Work
+
+- Design for rollback first.
+- Prefer small, reversible changes over high-risk deployments.
+- Treat identity as the primary security boundary.
+- Document systems so someone else can operate them at 3am.
+- Automate only after the manual process is fully understood.
+
+---
+
+## 🔐 Security Philosophy
+
+- Identity over network trust.
+- Short-lived access over standing privilege.
+- Evidence over assumptions.
+- Safe defaults over permissive convenience.
+- Production systems should fail predictably.
+
+---
+
+## 🔍 Currently Exploring
+
+- Workload identity federation patterns across cloud providers  
+- Zero-trust network segmentation models  
+- Policy-as-code for access governance and platform controls  
+- Platform engineering workflows for repeatable environments  
 
 ---
 
