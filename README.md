@@ -8,6 +8,7 @@
 ![Experience](https://img.shields.io/badge/Experience-6%2B%20years-1f6feb?style=for-the-badge&logo=github)
 ![Lines of Code](https://img.shields.io/badge/Lines%20of%20Code-100k%2B-blue?style=for-the-badge)
 
+<!-- Tech stack badges (as provided, preserved) -->
 <p align="center">
 <img src="https://img.shields.io/badge/Azure-0078D4?logo=microsoftazure&logoColor=white">
 <img src="https://img.shields.io/badge/AWS-232F3E?logo=amazonaws&logoColor=FF9900">
@@ -44,27 +45,26 @@ I work primarily in **Azure**, with complementary projects in **AWS** and **GCP*
 
 ---
 
-## 🏗️ Featured Projects (11)
+## 🏗️ Featured Projects (10)
 
 | Project | Description | Stack |
 |---|---|---|
-| [**Cloud Access Broker — JIT (Multi-Cloud)**](https://github.com/berkeleyo/cloud-access-broker-jit-multicloud) | Time-bound least-privilege elevation across Azure, AWS & GCP with approvals, audit, and auto-revocation. | ☁️ Azure · AWS · GCP · PowerShell/Bash |
-| [**AWS JIT Access**](https://github.com/berkeleyo/aws-jit-access) | Identity Center + Step Functions flow for temporary AWS elevation with auto-expiry & CloudTrail logging. | ☁️ AWS · Python · IAM |
-| [**Azure Access Automation**](https://github.com/berkeleyo/azure-access-automation) | Forms → SharePoint → Power Automate → Entra ID group → Conditional Access (time-boxed outside-country access). | ☁️ Azure · Power Automate |
+| [**Cloud Access Broker — JIT (Multi-Cloud)**](https://github.com/berkeleyo/cloud-access-broker-jit-multicloud) | Time-bound least-privilege elevation across **Azure, AWS & GCP** with approvals, audit, and auto-revocation. | ☁️ Azure · AWS · GCP · PowerShell/Bash |
+| [**AWS JIT Access**](https://github.com/berkeleyo/aws-jit-access) | Identity Center + Step Functions flow for temporary AWS elevation with auto-expiry & CloudTrail logging. | ☁️ AWS · 🐍 Python · 🔐 IAM |
+| [**Azure Access Automation**](https://github.com/berkeleyo/azure-access-automation) | Forms → SharePoint → Power Automate → Entra ID group → Conditional Access (time-boxed outside-country access). | ☁️ Azure · ⚡ Power Automate |
 | [**Fortinet SD-WAN + IPsec (Azure)**](https://github.com/berkeleyo/fortinet-azure-sdwan-ipsec) | Hub-and-spoke SD-WAN/IPsec topology with HA/BGP, MTU hardening, and route health validation. | 🧱 Fortinet · ☁️ Azure |
-| [**Azure Public IP Migration**](https://github.com/berkeleyo/azure-public-ip-migration) | Discover Basic SKU IPs, export inventory CSV, and migrate safely to Standard SKU. | PowerShell · ☁️ Azure |
+| [**Azure Public IP Migration**](https://github.com/berkeleyo/azure-public-ip-migration) | Discover Basic SKU IPs, export inventory CSV, and migrate safely to Standard SKU. | 🧰 PowerShell · ☁️ Azure |
 | [**Azure VPN (P2S) Runbook**](https://github.com/berkeleyo/azure-vpn-repo) | Real-world Azure P2S VPN rollout: OpenVPN/Entra ID vs IKEv2, DNS strategy, and secure defaults. | 🌐 Networking · ☁️ Azure |
 | [**Cloud-Secure Egress Policy**](https://github.com/berkeleyo/cloud-secure-egress-firewall-policy) | Lock down outbound Internet egress via central firewall/NVA chain with cutover & rollback docs. | 🔐 Network Security · ☁️ Azure |
-| [**LogicMonitor Hybrid (Hyper-V • AWS • GCP)**](https://github.com/berkeleyo/logicmonitor-hybrid-monitoring) | Hybrid observability with collectors/agents and cloud integrations; CPU/Memory/Uptime alerting. | 📊 LogicMonitor · AWS · GCP |
-| [**Grafana Backup Monitoring**](https://github.com/berkeleyo/grafana-backup-monitoring) | Dashboards + parser for backup health verification; pragmatic CI examples. | 📈 Grafana · Python |
-| [**UniFi Controller Cloud Migration**](https://github.com/berkeleyo/unifi-controller-cloud-migration) | Migration from legacy hosting to cloud VM with DNS cutover, version pinning, secure admin access and SSH host key audit controls. | ☁️ Cloud · PowerShell · Bash |
-| [**Intune Kyocera Print Governance**](https://github.com/berkeleyo/intune-kyocera-only-print-governance) | Intune automation to enforce Kyocera-only printers, removing unmanaged drivers and enforcing compliance. | Intune · PowerShell |
+| [**LogicMonitor Hybrid (Hyper-V • AWS • GCP)**](https://github.com/berkeleyo/logicmonitor-hybrid-monitoring) | Hybrid observability with collectors/agents and cloud integrations; CPU/Memory/Uptime alerting. | 📊 LogicMonitor · ☁️ AWS · ☁️ GCP |
+| [**UniFi Controller Cloud Migration**](https://github.com/berkeleyo/unifi-controller-cloud-migration) | Migration from legacy hosting to cloud VM with DNS cutover, version pinning, Entra App Proxy (MFA/CA), and SSH host key audit controls. | ☁️ Cloud · 🧰 PowerShell · 🐧 Linux |
+| [**Intune Kyocera Print Governance**](https://github.com/berkeleyo/intune-kyocera-only-print-governance) | Intune automation to enforce Kyocera-only printers, removing unmanaged drivers and enforcing compliance. | 🖥️ Intune · 🧰 PowerShell |
 
 ---
 
 ## 🧠 Highlights & Focus
 
-- **Identity & Access Governance (Multi-Cloud)** — Secure, auditable JIT access spanning Entra ID PIM, AWS STS AssumeRole, and GCP Workload Identity Federation.  
+- **Identity & Access Governance (Multi-Cloud)** — Secure, auditable JIT access spanning **Entra ID PIM**, **AWS STS AssumeRole**, and **GCP Workload Identity Federation**.  
 - **Cloud Networking & Security** — Enterprise SD-WAN/IPsec with HA/BGP and MTU tuning; hub-and-spoke patterns; deterministic egress.  
 - **Security Automation & SOC Integration** — Sentinel/M365 playbooks for enrichment, triage, and notification routing to Teams.  
 - **Governance & FinOps** — Policy-as-code, tagging hygiene, drift detection, and cost accountability across estates.  
@@ -75,4 +75,3 @@ I work primarily in **Azure**, with complementary projects in **AWS** and **GCP*
 ## 🧩 Redaction & Security Statement
 > 🧾 All documentation and code samples are **redacted for confidentiality**.  
 > No secrets, IP addresses, or tenant identifiers are included.
-
