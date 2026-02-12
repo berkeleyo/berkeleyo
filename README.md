@@ -38,10 +38,23 @@ I like clean runbooks, reversible cutovers, and evidence-first security.
 I work primarily in **Azure**, with complementary projects in **AWS** and **GCP** where they deliver value.
 
 - 🛡️ Identity & Access: JIT elevation, Conditional Access, PIM, external-ID federation (Azure • AWS STS • GCP WIF)  
-- 🌐 Networking: Fortinet SD-WAN/IPsec in Azure, HA/BGP, MTU optimization  
+- 🌐 Networking: Fortinet SD-WAN/IPsec in Azure, HA/BGP, MTU optimization, deterministic routing and secure egress patterns  
 - ⚙️ Automation: PowerShell/Bicep, Logic Apps, YAML pipelines, GitHub/Azure DevOps  
+- 🖥️ Endpoint & Governance: Intune configuration, remediation, and policy-driven enforcement  
 - 📊 Ops: Runbooks, cutover/rollback, observability, backup verification  
 - ✍️ Documentation: concise, production-ready, redacted  
+
+Recent work also explores AI-driven automation and voice-based agents as operational interfaces for platform workflows and customer interaction systems.
+
+---
+
+### 🤖 AI Systems & Event-Driven Platforms
+
+Exploration of AI-assisted automation and event-driven systems extending traditional platform engineering patterns into conversational and autonomous workflows.
+
+| Project | Description | Stack |
+|---|---|---|
+| [**AI Voice Agent Platform**](https://github.com/berkeleyo/ai-voice-agent-platform-repo) | Event-driven AI voice agent platform handling enquiry intake, outbound calling workflows, structured data capture, and automation pipelines. | 🤖 AI · Azure Functions · Event-Driven |
 
 ---
 
@@ -62,6 +75,7 @@ Projects focused on moving legacy or operationally risky systems into secure, ma
 | [**UniFi Controller Cloud Migration**](https://github.com/berkeleyo/unifi-controller-cloud-migration) | End-to-end migration from legacy hosting to Azure with DNS cutover strategy, version pinning, Entra App Proxy integration, MFA enforcement, and operational hardening. | ☁️ Azure · 🐧 Linux · 🧰 PowerShell |
 | [**Azure Public IP Migration**](https://github.com/berkeleyo/azure-public-ip-migration) | Discovery and migration framework for retiring Basic SKU public IPs safely across subscriptions with inventory export, validation, and reversible migration workflow. | 🧰 PowerShell · ☁️ Azure |
 | [**Azure VPN (P2S) Runbook**](https://github.com/berkeleyo/azure-vpn-repo) | Real-world VPN deployment covering authentication models, DNS behaviour, and secure connectivity modernisation patterns. | 🌐 Networking · ☁️ Azure |
+| [**CSAT Remote Access Pattern (LB + NAT Gateway)**](https://github.com/berkeleyo/azure-csat-remote-access-standard-lb-nat-natgw) | Policy-compliant remote access pattern using Standard Load Balancer inbound NAT with controlled outbound egress via NAT Gateway. | ☁️ Azure · Networking · Operations |
 
 ---
 
@@ -74,6 +88,7 @@ Identity is treated as the primary control plane. These projects focus on removi
 | [**Cloud Access Broker — JIT (Multi-Cloud)**](https://github.com/berkeleyo/cloud-access-broker-jit-multicloud) | Multi-cloud just-in-time elevation across Azure, AWS and GCP with approval workflow, audit logging, and automatic revocation. | ☁️ Azure · AWS · GCP · PowerShell |
 | [**AWS JIT Access**](https://github.com/berkeleyo/aws-jit-access) | Temporary privilege elevation using AWS Identity Center and Step Functions with CloudTrail-backed auditability. | ☁️ AWS · 🐍 Python · 🔐 IAM |
 | [**Azure Access Automation**](https://github.com/berkeleyo/azure-access-automation) | Automated access workflows integrating Forms, Power Automate and Entra ID to provide controlled, time-bound access with policy enforcement. | ☁️ Azure · ⚡ Power Automate |
+| [**Access Governance Request Platform**](https://github.com/berkeleyo/access-governance-request-platform) | Access governance platform enabling request intake, approval workflows, time-bound group membership, automated expiry removal, and audit-ready evidence generation. | ☁️ Azure · Identity · Automation |
 
 ---
 
@@ -85,6 +100,8 @@ Networking projects focused on deterministic routing, secure egress, and predict
 |---|---|---|
 | [**Fortinet SD-WAN + IPsec (Azure)**](https://github.com/berkeleyo/fortinet-azure-sdwan-ipsec) | Enterprise hub-and-spoke SD-WAN architecture with HA, BGP routing, MTU optimisation, and operational validation patterns. | 🧱 Fortinet · ☁️ Azure |
 | [**Cloud-Secure Egress Policy**](https://github.com/berkeleyo/cloud-secure-egress-firewall-policy) | Centralised outbound control using firewall chaining and enforced egress paths with documented cutover and rollback strategy. | 🔐 Network Security · ☁️ Azure |
+| [**Azure Firewall Multi-Site Publishing**](https://github.com/berkeleyo/azure-firewall-multi-site-publishing) | Secure ingress architecture publishing multiple internal applications through Azure Firewall using DNAT and isolated backend patterns. | 🔥 Azure Firewall · ☁️ Azure |
+| [**Azure Hub-Spoke Hybrid Routing Pattern**](https://github.com/berkeleyo/azure-hub-spoke-hybrid-routing-pattern) | Hybrid routing design steering partner traffic over VPN gateway using UDR prefix routing and gateway transit patterns. | 🌐 Networking · ☁️ Azure |
 
 ---
 
@@ -94,6 +111,9 @@ Automation projects focused on scale, repeatability, and reducing operational ri
 
 | Project | Description | Stack |
 |---|---|---|
+| [**Azure Governance Baseline Framework**](https://github.com/berkeleyo/azure-governance-baseline-framework) | Governance baseline implementing naming standards, tag enforcement, policy-as-code scaffolding, drift detection, and controlled remediation workflows. | ☁️ Azure · Policy · PowerShell |
+| [**Azure Cost & Tagging Governance**](https://github.com/berkeleyo/azure-cost-tagging) | Automation enforcing tagging standards and cost attribution models across subscriptions with reporting and remediation workflows. | ☁️ Azure · Governance · Automation |
+| [**Azure Budget Governance**](https://github.com/berkeleyo/azure-budget-governance) | Budget enforcement and alerting automation using cost management APIs and operational reporting patterns. | ☁️ Azure · FinOps · Automation |
 | [**Intune Kyocera Print Governance**](https://github.com/berkeleyo/intune-kyocera-only-print-governance) | Endpoint governance automation enforcing compliant printer usage and removing unmanaged drivers through Intune remediation. | 🖥️ Intune · 🧰 PowerShell |
 
 ---
@@ -105,15 +125,19 @@ Operational tooling focused on visibility, health validation, and ensuring syste
 | Project | Description | Stack |
 |---|---|---|
 | [**LogicMonitor Hybrid Monitoring**](https://github.com/berkeleyo/logicmonitor-hybrid-monitoring) | Hybrid monitoring model spanning Hyper-V, AWS and GCP with unified alerting and operational dashboards. | 📊 LogicMonitor · ☁️ AWS · ☁️ GCP |
+| [**Observability (Grafana + Kibana)**](https://github.com/berkeleyo/observability-grafana-kibana) | Centralised observability stack for metrics and log analysis across hybrid environments. | 📊 Grafana · Kibana · Monitoring |
+| [**M365 Security Alerts to Teams**](https://github.com/berkeleyo/m365-security-alerts-to-teams) | Logic App workflow aggregating security alerts and publishing operational summaries to Teams using adaptive cards. | ☁️ Azure · Security · Automation |
+| [**Datto Grafana Monitoring**](https://github.com/berkeleyo/datto-grafana-presales) | Monitoring dashboards and alerting patterns designed for operational visibility and infrastructure validation. | 📊 Grafana · Monitoring |
 
 ---
 
 ## 🧠 Engineering Focus
 
 - Identity-first platform design and least-privilege access models
-- Deterministic cloud networking and secure egress architecture
-- Automation driven by operational need rather than tooling preference
+- Deterministic cloud networking and secure ingress/egress architecture
+- DevOps practices aligned with operational ownership
 - Governance and repeatability across multi-subscription environments
+- Automation driven by operational need rather than tooling preference
 - Documentation designed for operational handover
 
 ---
@@ -121,7 +145,7 @@ Operational tooling focused on visibility, health validation, and ensuring syste
 ## 🚀 Professional Impact
 
 - Removed standing privilege through identity-driven elevation models across cloud environments.
-- Delivered production migrations and cutovers with pre-defined rollback paths and zero-downtime strategies.
+- Delivered production migrations and cutovers with pre-defined rollback paths and controlled change patterns.
 - Standardised network and access patterns reducing operational drift across environments.
 - Built automation replacing manual access provisioning and configuration workflows.
 - Produced operational runbooks enabling predictable support and incident response.
