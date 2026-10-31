@@ -33,9 +33,11 @@
 
 ## 🧑‍💻 About Me
 
-Cloud engineer working across **platform infrastructure, networking, security, and automation**.
+**Engineering better ways to build, operate and evolve technology.**
 
-I build and operate cloud systems with an emphasis on **infrastructure as code, predictable change, operational resilience, and clear engineering boundaries**.
+Experience across complex enterprise environments, spanning infrastructure, networking, security, automation and production engineering. A technology agnostic approach focused on solving complex challenges, improving operational efficiency and delivering solutions that extend beyond individual platforms or disciplines.
+
+Modern engineering is about more than maintaining systems. It's about reducing complexity, improving resilience, eliminating repetitive processes and creating scalable, repeatable solutions that deliver measurable value.
 
 - 🏗️ **Cloud & Platform:** Azure, AWS, and GCP infrastructure, Kubernetes, containers, CI/CD, and repeatable platform patterns
 - 🌐 **Networking:** Routing, hybrid connectivity, secure ingress/egress, load balancing, traffic engineering, and network security
