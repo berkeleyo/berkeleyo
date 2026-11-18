@@ -43,10 +43,10 @@ A few projects that reflect the problems I like working on. These are public ref
 
 | Project | What it explores |
 | --- | --- |
+| [Multi-Vendor Infrastructure Automation](https://github.com/berkeleyo/multi-vendor-infrastructure-automation) | Python-based AWS, Azure, Cloudflare and Palo Alto discovery, inventory normalisation, configuration validation and drift analysis. |
+| [Infrastructure MCP Server](https://github.com/berkeleyo/infrastructure-mcp-server) | Read-only MCP interface for infrastructure discovery, drift detection and controlled DNS, TLS and HTTP diagnostics. |
 | [Production Cloud Network Platform](https://github.com/berkeleyo/production-cloud-network-platform) | Azure hub-and-spoke networking, segmented workloads, WAF ingress and offline Terraform validation. |
 | [AKS GitOps](https://github.com/berkeleyo/azure-aks-gitops) | Kubernetes infrastructure, GitOps-driven configuration, environment promotion and operational runbooks. |
-| [Access Governance Request Platform](https://github.com/berkeleyo/access-governance-request-platform) | Request and approval workflows, time-bound access and auditable identity operations. |
-| [Azure Governance Baseline](https://github.com/berkeleyo/azure-governance-baseline-framework) | Policy-as-code, naming and tagging standards, drift reporting and controlled remediation patterns. |
 
 These are the current selections; I'll revisit them as I improve and expand the underlying projects.
 
