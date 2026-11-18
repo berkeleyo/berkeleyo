@@ -60,8 +60,4 @@ These are the current selections; I'll revisit them as I improve and expand the 
 
 **What I'm exploring** — AI-assisted infrastructure operations, developer tooling and ways to make complex systems easier to understand and maintain.
 
-## Elsewhere
-
-I'm also building [Berrystock Solutions](https://berrystocksolutions.co.uk), focused on infrastructure engineering, automation and practical modernisation.
-
-[All repositories](https://github.com/berkeleyo?tab=repositories) · [Berrystock Solutions](https://berrystocksolutions.co.uk)
+[All repositories](https://github.com/berkeleyo?tab=repositories)
